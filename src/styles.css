@@ -1,2 +1,151 @@
-/* You can add global styles to this file, and also import other style files */
-@import "tailwindcss";
+/* Import Tailwind CSS */
+@import 'tailwindcss';
+
+/* Base styles */
+@layer base {
+  body {
+@apply bg-gradient-to-br from-[#aadfdc] via-[#26A69A] to-[#004D40]
+       dark:from-[#00251A] dark:via-[#004D40] dark:to-[#001B12]
+       text-[#004D40] dark:text-[#A7FFEB]
+       transition-colors duration-300 ease-in-out;
+
+  }
+}
+
+/* Component styles */
+@layer components {
+  .btn-primary {
+    @apply bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-primary-outline {
+    @apply border-2 border-teal-500 text-teal-600 hover:bg-teal-500 hover:text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-emerald-400 hover:bg-emerald-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-secondary-outline {
+    @apply border-2 border-emerald-400 text-emerald-500 hover:bg-emerald-400 hover:text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-success {
+    @apply bg-green-400 hover:bg-green-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-success-outline {
+    @apply border-2 border-green-400 text-green-500 hover:bg-green-400 hover:text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .btn-warning {
+    @apply bg-amber-400 hover:bg-amber-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-warning-outline {
+    @apply border-2 border-amber-400 text-amber-500 hover:bg-amber-400 hover:text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .btn-error {
+    @apply bg-rose-400 hover:bg-rose-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-error-outline {
+    @apply border-2 border-rose-400 text-rose-500 hover:bg-rose-400 hover:text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  /* Card Variants */
+  .card {
+    @apply bg-gradient-to-br from-emerald-50 via-cyan-50 to-white
+           dark:from-gray-800 dark:via-gray-900 dark:to-black
+           rounded-lg shadow-lg p-6 transition-colors duration-200;
+  }
+
+  .card-primary {
+    @apply bg-gradient-to-br from-teal-50 via-cyan-100 to-white
+           dark:from-teal-900 dark:via-cyan-800 dark:to-gray-900
+           rounded-lg shadow-lg p-6 transition-colors duration-200;
+  }
+
+  .card-secondary {
+    @apply bg-gradient-to-br from-emerald-50 via-emerald-100 to-white
+           dark:from-emerald-900 dark:via-emerald-800 dark:to-gray-900
+           rounded-lg shadow-md p-6 transition-colors duration-200;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600
+           focus:ring-2 focus:ring-teal-400 focus:border-transparent
+           dark:bg-gray-800 dark:text-white transition-colors duration-200;
+  }
+
+  .input-field-error {
+    @apply w-full px-4 py-2 rounded-lg border border-rose-400 dark:border-rose-500
+           focus:ring-2 focus:ring-rose-400 focus:border-transparent
+           dark:bg-gray-800 dark:text-white transition-colors duration-200;
+  }
+
+  .badge {
+    @apply px-2 py-1 text-sm rounded-full;
+  }
+
+  .badge-primary {
+    @apply bg-teal-50 text-teal-800 dark:bg-teal-900 dark:text-teal-100;
+  }
+
+  .badge-secondary {
+    @apply bg-emerald-50 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-100;
+  }
+
+  .badge-success {
+    @apply bg-green-50 text-green-800 dark:bg-green-900 dark:text-green-100;
+  }
+
+  .badge-warning {
+    @apply bg-amber-50 text-amber-800 dark:bg-amber-900 dark:text-amber-100;
+  }
+
+  .badge-error {
+    @apply bg-rose-50 text-rose-800 dark:bg-rose-900 dark:text-rose-100;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    @apply text-teal-600 dark:text-teal-400;
+  }
+
+  .text-secondary {
+    @apply text-emerald-500 dark:text-emerald-400;
+  }
+
+  .text-success {
+    @apply text-green-500 dark:text-green-400;
+  }
+
+  .text-warning {
+    @apply text-amber-500 dark:text-amber-400;
+  }
+
+  .text-error {
+    @apply text-rose-500 dark:text-rose-400;
+  }
+
+  .bg-primary {
+    @apply bg-teal-500 dark:bg-teal-700;
+  }
+
+  .bg-secondary {
+    @apply bg-emerald-400 dark:bg-emerald-600;
+  }
+
+  .bg-success {
+    @apply bg-green-400 dark:bg-green-600;
+  }
+
+  .bg-warning {
+    @apply bg-amber-400 dark:bg-amber-600;
+  }
+
+  .bg-error {
+    @apply bg-rose-400 dark:bg-rose-600;
+  }
+}
