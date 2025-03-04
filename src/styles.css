@@ -4,11 +4,10 @@
 /* Base styles */
 @layer base {
   body {
-@apply bg-gradient-to-br from-[#aadfdc] via-[#26A69A] to-[#004D40]
+    @apply bg-gradient-to-br from-[#aadfdc] via-[#26A69A] to-[#004D40]
        dark:from-[#00251A] dark:via-[#004D40] dark:to-[#001B12]
        text-[#004D40] dark:text-[#A7FFEB]
        transition-colors duration-300 ease-in-out;
-
   }
 }
 

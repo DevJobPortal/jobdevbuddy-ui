@@ -6,4 +6,4 @@ export type Job = {
   type: string;
   salary: string;
   postedTime: string;
-}
+};

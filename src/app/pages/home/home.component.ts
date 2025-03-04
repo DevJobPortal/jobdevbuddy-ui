@@ -2,12 +2,14 @@ import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { JobCategory } from './types/job-category.type';
+import { HeaderComponent } from '../../components/header/header.component';
+import { HeroComponent } from '../../components/hero/hero.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './home.component.html',
   standalone: true,
-  imports: [FormsModule]
+  imports: [FormsModule, HeaderComponent, HeroComponent],
 })
 export class HomeComponent {
   title = signal('JobDevBuddy');
@@ -22,7 +24,7 @@ export class HomeComponent {
       location: 'Remote',
       type: 'Full-time',
       salary: '$120k - $150k',
-      postedTime: '2 hours ago'
+      postedTime: '2 hours ago',
     },
     {
       title: 'Backend Engineer',
@@ -31,7 +33,7 @@ export class HomeComponent {
       location: 'New York, NY',
       type: 'Full-time',
       salary: '$130k - $160k',
-      postedTime: '4 hours ago'
+      postedTime: '4 hours ago',
     },
     {
       title: 'DevOps Engineer',
@@ -40,7 +42,7 @@ export class HomeComponent {
       location: 'San Francisco, CA',
       type: 'Full-time',
       salary: '$140k - $170k',
-      postedTime: '6 hours ago'
+      postedTime: '6 hours ago',
     },
     {
       title: 'UI/UX Designer',
@@ -49,13 +51,17 @@ export class HomeComponent {
       location: 'Los Angeles, CA',
       type: 'Contract',
       salary: '$90k - $120k',
-      postedTime: '8 hours ago'
-    }
+      postedTime: '8 hours ago',
+    },
   ]);
 
   searchJobs() {
     // TODO: Implement job search functionality
-    console.log('Searching for:', this.searchQuery(), 'in', this.locationQuery());
+    console.log(
+      'Searching for:',
+      this.searchQuery(),
+      'in',
+      this.locationQuery()
+    );
   }
-
 }
