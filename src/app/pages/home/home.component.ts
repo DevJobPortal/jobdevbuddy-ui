@@ -9,7 +9,7 @@ import { HeroComponent } from '../../components/hero/hero.component';
   selector: 'app-root',
   templateUrl: './home.component.html',
   standalone: true,
-  imports: [FormsModule, HeaderComponent, HeroComponent],
+  imports: [FormsModule, HeroComponent],
 })
 export class HomeComponent {
   title = signal('JobDevBuddy');
