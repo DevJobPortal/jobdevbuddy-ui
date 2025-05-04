@@ -1,17 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   standalone: true,
+  imports: [CommonModule]
 })
-export class HeaderComponent implements OnInit {
-  isScrolled: any;
-  constructor() {}
-  mobileMenuOpen: boolean = false;
-  ngOnInit() {}
+export class HeaderComponent {
+  mobileMenuOpen = signal(false);
 
-  toggleMobileMenu() {
-    this.mobileMenuOpen = !this.mobileMenuOpen;
+  constructor() {}
+
+  toggleMobileMenu(): void {
+    this.mobileMenuOpen.update(val => !val);
   }
 }

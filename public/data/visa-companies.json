@@ -1,0 +1,398 @@
+{
+  "companies":[
+    {
+      "id": 1,
+      "name": "Microsoft",
+      "locations": [
+        "Redmond, WA",
+        "Seattle, WA",
+        "San Francisco, CA",
+        "New York, NY"
+      ],
+      "careersUrl": "https://careers.microsoft.com",
+      "logo": "https://logo.clearbit.com/microsoft.com",
+      "industries": ["Technology", "Software"]
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "locations": [
+        "Mountain View, CA",
+        "New York, NY",
+        "Seattle, WA",
+        "Austin, TX"
+      ],
+      "careersUrl": "https://careers.google.com",
+      "logo": "https://logo.clearbit.com/google.com",
+      "industries": ["Technology", "Software", "Advertising"]
+    },
+    {
+      "id": 3,
+      "name": "Amazon",
+      "locations": [
+        "Seattle, WA",
+        "Arlington, VA",
+        "New York, NY",
+        "San Francisco, CA"
+      ],
+      "careersUrl": "https://www.amazon.jobs",
+      "logo": "https://logo.clearbit.com/amazon.com",
+      "industries": ["Technology", "E-commerce", "Cloud Computing"]
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "locations": [
+        "Cupertino, CA",
+        "Austin, TX",
+        "Seattle, WA",
+        "New York, NY"
+      ],
+      "careersUrl": "https://www.apple.com/careers",
+      "logo": "https://logo.clearbit.com/apple.com",
+      "industries": ["Technology", "Consumer Electronics", "Software"]
+    },
+    {
+      "id": 5,
+      "name": "Facebook (Meta)",
+      "locations": [
+        "Menlo Park, CA",
+        "New York, NY",
+        "Seattle, WA",
+        "Austin, TX"
+      ],
+      "careersUrl": "https://www.metacareers.com",
+      "logo": "https://logo.clearbit.com/meta.com",
+      "industries": ["Technology", "Social Media", "Virtual Reality"]
+    },
+    {
+      "id": 6,
+      "name": "IBM",
+      "locations": [
+        "Armonk, NY",
+        "Austin, TX",
+        "San Francisco, CA",
+        "Raleigh, NC"
+      ],
+      "careersUrl": "https://www.ibm.com/careers",
+      "logo": "https://logo.clearbit.com/ibm.com",
+      "industries": ["Technology", "Consulting", "Cloud Computing"]
+    },
+    {
+      "id": 7,
+      "name": "Intel",
+      "locations": [
+        "Santa Clara, CA",
+        "Hillsboro, OR",
+        "Austin, TX",
+        "Phoenix, AZ"
+      ],
+      "careersUrl": "https://jobs.intel.com",
+      "logo": "https://logo.clearbit.com/intel.com",
+      "industries": ["Technology", "Semiconductors", "Hardware"]
+    },
+    {
+      "id": 8,
+      "name": "Oracle",
+      "locations": [
+        "Austin, TX",
+        "Redwood City, CA",
+        "Seattle, WA",
+        "Denver, CO"
+      ],
+      "careersUrl": "https://www.oracle.com/careers",
+      "logo": "https://logo.clearbit.com/oracle.com",
+      "industries": ["Technology", "Software", "Cloud Computing"]
+    },
+    {
+      "id": 9,
+      "name": "Salesforce",
+      "locations": [
+        "San Francisco, CA",
+        "Indianapolis, IN",
+        "New York, NY",
+        "Atlanta, GA"
+      ],
+      "careersUrl": "https://www.salesforce.com/company/careers",
+      "logo": "https://logo.clearbit.com/salesforce.com",
+      "industries": ["Technology", "CRM", "Cloud Computing"]
+    },
+    {
+      "id": 10,
+      "name": "Adobe",
+      "locations": [
+        "San Jose, CA",
+        "San Francisco, CA",
+        "Seattle, WA",
+        "New York, NY"
+      ],
+      "careersUrl": "https://www.adobe.com/careers.html",
+      "logo": "https://logo.clearbit.com/adobe.com",
+      "industries": ["Technology", "Software", "Creative Tools"]
+    },
+    {
+      "id": 11,
+      "name": "Uber",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Chicago, IL",
+        "Seattle, WA"
+      ],
+      "careersUrl": "https://www.uber.com/us/en/careers",
+      "logo": "https://logo.clearbit.com/uber.com",
+      "industries": ["Technology", "Transportation", "Logistics"]
+    },
+    {
+      "id": 12,
+      "name": "Airbnb",
+      "locations": [
+        "San Francisco, CA",
+        "Seattle, WA",
+        "New York, NY",
+        "Portland, OR"
+      ],
+      "careersUrl": "https://careers.airbnb.com",
+      "logo": "https://logo.clearbit.com/airbnb.com",
+      "industries": ["Technology", "Travel", "Hospitality"]
+    },
+    {
+      "id": 13,
+      "name": "Tesla",
+      "locations": [
+        "Palo Alto, CA",
+        "Fremont, CA",
+        "Austin, TX",
+        "Buffalo, NY"
+      ],
+      "careersUrl": "https://www.tesla.com/careers",
+      "logo": "https://logo.clearbit.com/tesla.com",
+      "industries": ["Automotive", "Technology", "Energy"]
+    },
+    {
+      "id": 14,
+      "name": "Twitter",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Seattle, WA",
+        "Atlanta, GA"
+      ],
+      "careersUrl": "https://careers.twitter.com",
+      "logo": "https://logo.clearbit.com/twitter.com",
+      "industries": ["Technology", "Social Media", "Communication"]
+    },
+    {
+      "id": 15,
+      "name": "LinkedIn",
+      "locations": [
+        "Sunnyvale, CA",
+        "San Francisco, CA",
+        "New York, NY",
+        "Chicago, IL"
+      ],
+      "careersUrl": "https://careers.linkedin.com",
+      "logo": "https://logo.clearbit.com/linkedin.com",
+      "industries": [
+        "Technology",
+        "Social Media",
+        "Professional Networking"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Netflix",
+      "locations": [
+        "Los Gatos, CA",
+        "Los Angeles, CA",
+        "New York, NY",
+        "Salt Lake City, UT"
+      ],
+      "careersUrl": "https://jobs.netflix.com",
+      "logo": "https://logo.clearbit.com/netflix.com",
+      "industries": ["Technology", "Entertainment", "Streaming"]
+    },
+    {
+      "id": 17,
+      "name": "Spotify",
+      "locations": [
+        "New York, NY",
+        "Boston, MA",
+        "Miami, FL",
+        "Los Angeles, CA"
+      ],
+      "careersUrl": "https://www.spotifyjobs.com",
+      "logo": "https://logo.clearbit.com/spotify.com",
+      "industries": ["Technology", "Music", "Entertainment"]
+    },
+    {
+      "id": 18,
+      "name": "Dropbox",
+      "locations": [
+        "San Francisco, CA",
+        "Seattle, WA",
+        "New York, NY",
+        "Austin, TX"
+      ],
+      "careersUrl": "https://www.dropbox.com/jobs",
+      "logo": "https://logo.clearbit.com/dropbox.com",
+      "industries": ["Technology", "Cloud Storage", "Software"]
+    },
+    {
+      "id": 19,
+      "name": "Cisco",
+      "locations": [
+        "San Jose, CA",
+        "Research Triangle Park, NC",
+        "Austin, TX",
+        "Chicago, IL"
+      ],
+      "careersUrl": "https://jobs.cisco.com",
+      "logo": "https://logo.clearbit.com/cisco.com",
+      "industries": ["Technology", "Networking", "Hardware"]
+    },
+    {
+      "id": 20,
+      "name": "VMware",
+      "locations": [
+        "Palo Alto, CA",
+        "Austin, TX",
+        "Boston, MA",
+        "Atlanta, GA"
+      ],
+      "careersUrl": "https://careers.vmware.com",
+      "logo": "https://logo.clearbit.com/vmware.com",
+      "industries": ["Technology", "Virtualization", "Cloud Computing"]
+    },
+    {
+      "id": 21,
+      "name": "Nvidia",
+      "locations": [
+        "Santa Clara, CA",
+        "Seattle, WA",
+        "Austin, TX",
+        "Boston, MA"
+      ],
+      "careersUrl": "https://www.nvidia.com/en-us/about-nvidia/careers",
+      "logo": "https://logo.clearbit.com/nvidia.com",
+      "industries": ["Technology", "Semiconductors", "AI"]
+    },
+    {
+      "id": 22,
+      "name": "PayPal",
+      "locations": [
+        "San Jose, CA",
+        "Austin, TX",
+        "Chicago, IL",
+        "Scottsdale, AZ"
+      ],
+      "careersUrl": "https://www.paypal.com/us/webapps/mpp/jobs",
+      "logo": "https://logo.clearbit.com/paypal.com",
+      "industries": ["Technology", "Fintech", "Payments"]
+    },
+    {
+      "id": 23,
+      "name": "Slack",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Denver, CO",
+        "Toronto, Canada"
+      ],
+      "careersUrl": "https://slack.com/careers",
+      "logo": "https://logo.clearbit.com/slack.com",
+      "industries": ["Technology", "Communication", "Software"]
+    },
+    {
+      "id": 24,
+      "name": "Zoom",
+      "locations": [
+        "San Jose, CA",
+        "Denver, CO",
+        "New York, NY",
+        "Phoenix, AZ"
+      ],
+      "careersUrl": "https://zoom.us/careers",
+      "logo": "https://logo.clearbit.com/zoom.us",
+      "industries": ["Technology", "Video Conferencing", "Communication"]
+    },
+    {
+      "id": 25,
+      "name": "Square",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Atlanta, GA",
+        "St. Louis, MO"
+      ],
+      "careersUrl": "https://careers.squareup.com",
+      "logo": "https://logo.clearbit.com/squareup.com",
+      "industries": ["Technology", "Fintech", "Payments"]
+    },
+    {
+      "id": 26,
+      "name": "Twilio",
+      "locations": [
+        "San Francisco, CA",
+        "Denver, CO",
+        "New York, NY",
+        "Atlanta, GA"
+      ],
+      "careersUrl": "https://www.twilio.com/company/jobs",
+      "logo": "https://logo.clearbit.com/twilio.com",
+      "industries": ["Technology", "Communications", "API"]
+    },
+    {
+      "id": 27,
+      "name": "Stripe",
+      "locations": [
+        "San Francisco, CA",
+        "Seattle, WA",
+        "New York, NY",
+        "Dublin, Ireland"
+      ],
+      "careersUrl": "https://stripe.com/jobs",
+      "logo": "https://logo.clearbit.com/stripe.com",
+      "industries": ["Technology", "Fintech", "Payments"]
+    },
+    {
+      "id": 28,
+      "name": "Atlassian",
+      "locations": [
+        "Sydney, Australia",
+        "San Francisco, CA",
+        "Austin, TX",
+        "New York, NY"
+      ],
+      "careersUrl": "https://www.atlassian.com/company/careers",
+      "logo": "https://logo.clearbit.com/atlassian.com",
+      "industries": ["Technology", "Software", "Collaboration"]
+    },
+    {
+      "id": 29,
+      "name": "Shopify",
+      "locations": [
+        "Ottawa, Canada",
+        "Toronto, Canada",
+        "Waterloo, Canada",
+        "Remote"
+      ],
+      "careersUrl": "https://www.shopify.com/careers",
+      "logo": "https://logo.clearbit.com/shopify.com",
+      "industries": ["Technology", "E-commerce", "Software"]
+    },
+    {
+      "id": 30,
+      "name": "Snowflake",
+      "locations": [
+        "San Mateo, CA",
+        "Bellevue, WA",
+        "Austin, TX",
+        "Dublin, Ireland"
+      ],
+      "careersUrl": "https://www.snowflake.com/company/careers",
+      "logo": "https://logo.clearbit.com/snowflake.com",
+      "industries": ["Technology", "Data Warehousing", "Cloud Computing"]
+    }
+  ]
+}

@@ -12,5 +12,9 @@ export const routes: Routes = [
   {
     path: 'jobs/:id',
     loadComponent: () => import('./pages/job-details/job-details.component').then(m => m.JobDetailsComponent)
+  },
+  {
+    path: 'visa-companies',
+    loadComponent: () => import('./pages/visa-companies/visa-companies.component').then(m => m.VisaCompaniesComponent)
   }
 ];
